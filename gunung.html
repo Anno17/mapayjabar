@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MapayJabar - Gunung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">MapayJabar</div>
+    <nav>
+      <a href="index.html">HOME</a>
+      <span>|</span>
+      <a href="gunung.html" class="active">GUNUNG</a>
+    </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </header>
+
+  <!-- Konten Gunung -->
+  <section class="gunung-section">
+    <div class="gunung-text">
+      <h1>GUNUNG CIKURAY #4</h1>
+      <p>
+        Gunung Cikuray terletak di Kabupaten Garut, Jawa Barat. Gunung tersebut memiliki
+        ketinggian 2821 MDPL dan merupakan gunung tertinggi di Jawa Barat setelah Gunung
+        Ciremai, Gunung Pangrango dan Gunung Gede.
+      </p>
+      <p><strong>Contact Person:</strong></p>
+      <div class="contacts">
+        <a href="https://wa.me/0897686943" target="_blank" class="wa"><i class="fa-brands fa-whatsapp"></i> 0897686943</a>
+        <a href="https://www.instagram.com/gunungcikuray_2821" target="_blank" class="ig"><i class="fa-brands fa-instagram"></i> gunungcikuray_2821</a>
+      </div>
+  
+      <div class="buttons">
+        <a href="#" class="btn" onclick="showImage('cikuray-rute')">
+        <i class="fa-solid fa-map"></i> Rute & Jalur</a>
+        <a href="#" class="btn" onclick="showImage('cikuray-tiket')">
+        <i class="fa-solid fa-ticket-alt"></i> Tiket Masuk</a>
+      </div>
+  
+      <!-- Tempat menampilkan foto -->
+      <div id="cikuray-rute" class="popup-img">
+        <button class="close-btn" onclick="closeImage('cikuray-rute')">Kembali</button>
+        <img src="img/rutecikuray.jpeg" alt="Rute Gunung Cikuray">
+      </div>
+      <div id="cikuray-tiket" class="popup-img">
+        <button class="close-btn" onclick="closeImage('cikuray-tiket')">Kembali</button>
+        <img src="img/tiketcikuray.jpeg" alt="Tiket Masuk Gunung Cikuray">
+      </div>
+    </div>
+  
+    <div class="gunung-img">
+      <img src="img/bg-hero.jpeg" alt="Gunung Cikuray">
+    </div>
+  </section>
+
+  <section class="gunung-section reverse">
+    <div class="gunung-text">
+      <h1>GUNUNG SAGARA</h1>
+      <p>
+        Gunung Sagara tertetak di Kabupaten Garut, Jawa Barat. Yang populer dikalangan pendaki pemula dan menengah karena titik ketinggiannya yang relatif terjangkau(sekitar 2132 MDPL). Gunung ini sering dijuluki "Rinjani Van Java" karena panorama puncaknya yang memukau.
+      </p>
+      <p><strong>Contact Person:</strong></p>
+    <div class="contacts">
+    <a href="wa.me/0813437463" class="wa"><i class="fa-brands fa-whatsapp"></i> 0813437463</a>
+    <a href="https://www.instagram.com/puncak_sagara" target="_blank" class="ig"><i class="fa-brands fa-instagram"></i> puncak_sagara</a>
+    </div>
+
+
+    <div class="buttons">
+      <a href="#" class="btn" onclick="showImage('sagara-rute')">
+      <i class="fa-solid fa-ticket-alt"></i> Rute & Jalur</a>
+      <a href="#" class="btn" onclick="showImage('sagara-tiket')">
+      <i class="fa-solid fa-ticket-alt"></i> Tiket Masuk</a>
+    </div>
+
+    <div id="sagara-rute" class="popup-img">
+      <button class="close-btn" onclick="closeImage('sagara-rute')">Kembali</button>
+      <img src="img/rutesagara.jpeg" alt="Rute Gunung Sagara">
+    </div>
+    <div id="sagara-tiket" class="popup-img">
+      <button class="close-btn" onclick="closeImage('sagara-tiket')">Kembali</button>
+      <img src="img/tiketsagara.jpeg" alt="Tiket Masuk Gunung Sagara">
+    </div>
+  </div>
+
+    <div class="gunung-img">
+      <img src="img/sagara.jpeg" alt="Gunung Sagara">
+    </div>
+  </section>
+
+  <section class="gunung-section">
+    <div class="gunung-text">
+      <h1>GUNUNG CIREMAI</h1>
+      <p>
+        Gunung tertinggi di Jawa Barat dengan ketinggian 3.078 MDPL, yang merupakan gunung berapi aktif tipe stratovolcano. Kawasan ini juga merupakan Taman Nasional Gunung Ciremai(TNGC), yang kaya akan keanekaragaman hayati dan menjadi tujuan populer untuk pendakian, dengan rute-rute seperti Linggarjati,Apuy, dan Palutungan.
+      </p>
+      <p><strong>Contact Person:</strong></p>
+    <div class="contacts">
+    <a href="wa.me/0813437463" class="wa"><i class="fa-brands fa-whatsapp"></i> 0813437463</a>
+    <a href="https://www.instagram.com/gunung_ciremai" target="_blank" class="ig"><i class="fa-brands fa-instagram"></i> gunung_ciremai</a>
+    </div>
+
+    <div class="buttons">
+      <a href="#" class="btn" onclick="showImage('ciremai-rute')">
+      <i class="fa-solid fa-ticket-alt"></i> Rute & Jalur</a>
+      <a href="#" class="btn" onclick="showImage('ciremai-tiket')">
+      <i class="fa-solid fa-ticket-alt"></i> Tiket Masuk</a>
+    </div>
+
+    <div id="ciremai-rute" class="popup-img">
+      <button class="close-btn" onclick="closeImage('ciremai-rute')">Kembali</button>
+      <img src="img/ruteciremai.jpeg" alt="Rute Gunung Ciremai">
+    </div>
+    <div id="ciremai-tiket" class="popup-img">
+      <button class="close-btn" onclick="closeImage('ciremai-tiket')">Kembali</button>
+      <img src="img/tiketciremai.jpeg" alt="Tiket Masuk Gunung Ciremai">
+    </div>
+  </div>
+
+    <div class="gunung-img">
+      <img src="img/ciremai.jpeg" alt="Gunung Ciremai">
+    </div>
+  </section>
+
+  <script>
+    function showImage(id) {
+      // sembunyikan semua popup dulu
+      document.querySelectorAll('.popup-img').forEach(el => el.style.display = 'none');
+      // tampilkan popup yang dipilih
+      document.getElementById(id).style.display = 'block';
+    }
+  
+    function closeImage(id) {
+      document.getElementById(id).style.display = 'none';
+    }
+  </script>
+     
+</body>
+</html>

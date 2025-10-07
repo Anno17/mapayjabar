@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  color: green;
+  font-size: 20px;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.navbar nav a.active {
+  color: green;
+}
+
+.navbar nav span {
+  color: green;
+  margin: 0 10px;
+}
+
+/* Halaman 1 - Hero */
+.hero {
+  background-image: url('img/bg.jpeg');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px black;
+}
+
+.hero h1 {
+  font-size: 50px;
+  color: green;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Halaman 2 - Gunung */
+.gunung-section {
+  margin-top: 40px;
+  display: flex;
+  gap: 15px;
+  padding: 20px 40px;
+  background: linear-gradient(to right, #23FF2E, #15991C);
+  color: white;
+  align-items: center;
+  border-radius: 8px;
+}
+
+/* untuk membalik posisi foto & teks */
+.gunung-section.reverse {
+  flex-direction: row-reverse;
+}
+
+
+.gunung-text {
+  flex: 1;
+  font-family: Noto Serif Tamil Slanted;
+  font-size: 20px;
+}
+
+.gunung-text h1 {
+  color: #a2f0e3;
+}
+
+.contacts {
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.contacts a {
+  background: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background: green;
+  color: white;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.gunung-img img {
+  width: 581px;
+  height: 275px;
+}
+.contacts a i {
+    margin-right: 6px;
+    color: green; /* WhatsApp & IG ikon hijau */
+  }
+  .ig i {
+    color: #E1306C; /* Instagram pink */
+  }
+  /* Biar gambar popup tidak tampil dulu */
+  .popup-img {
+    display: none;
+    margin-top: 15px;
+    position: relative;
+  }
+  
+  .popup-img img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .close-btn:hover {
+    background: darkred;
+  }
+  
+  
