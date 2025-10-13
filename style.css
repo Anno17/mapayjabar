@@ -140,10 +140,15 @@ body {
   }
   
   .popup-img img {
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  }
+  width: 60%; /* atur ukuran popup jadi lebih kecil */
+  max-width: 400px; /* batasi maksimal lebarnya */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  display: block;
+  margin: 0 auto; /* agar tetap di tengah */
+}
+
   
   .close-btn {
     position: absolute;
@@ -163,3 +168,4 @@ body {
   
 
   
+
