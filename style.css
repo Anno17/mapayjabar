@@ -42,6 +42,7 @@ body {
 /* Halaman 1 - Hero */
 .hero {
   background-image: url('img/bg.jpeg');
+  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -218,6 +219,7 @@ body {
   
 
   
+
 
 
 
